@@ -60,3 +60,45 @@
 .nav-item {
     margin-top: 50px;
 }
+
+.main {
+    position: fixed;
+    top:300px;
+    left:30px;
+    width: 100% ;
+}
+
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+}
+
+table {
+    width: calc(100% - 30px);
+    margin-left: 10px;
+    margin-right: 140px;
+}
+tr {
+    height: 40px; 
+}
+
+tr:nth-child(even) {
+    background-color: #F0F1F1;
+}
+
+td {
+    padding: 5px;
+}
+
+.serial-number {
+    text-align: right;
+}
+
+.sync-button {
+    color:#2924E7;
+    background-color: transparent;
+    padding: 3px;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-weight: 600;
+}
