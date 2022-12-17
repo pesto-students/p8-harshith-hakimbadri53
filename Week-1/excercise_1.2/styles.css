@@ -4,3 +4,45 @@
     font-family: 'Lato';
 }
 
+.album-card {
+    background-color: #444445;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 30px;
+    padding: 40px;
+    width: 100%;
+}
+
+.album-img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.album-details {
+    position: relative;
+    margin-left: 40px;
+}
+
+.album-title {
+    color: #ffffff;
+}
+
+.artist {
+    margin-top: 10px;
+    color:#ffffff;
+}
+
+.album-actions {
+    display: inline-flex;
+    position: absolute;
+    bottom: 0;
+    color:#ffffff
+}
+.album-action {
+    margin-right: 20px;
+    font-family: serif;
+    font-weight: 400;
+}
