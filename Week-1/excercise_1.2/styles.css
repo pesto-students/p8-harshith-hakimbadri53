@@ -46,3 +46,17 @@
     font-family: serif;
     font-weight: 400;
 }
+
+.nav {
+    display: flex;
+    background-color: #F0F1F1;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 30px;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-top: 50px;
+}
