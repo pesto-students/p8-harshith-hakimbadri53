@@ -1,0 +1,26 @@
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-left {
+    background-color: red;
+}
+
+.top-right {
+    background-color: yellow;
+}
+
+.bottom-left {
+    background-color: blue;
+}
+
+.bottom-right {
+    background-color: green;
+}
