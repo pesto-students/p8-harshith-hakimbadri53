@@ -62,3 +62,58 @@ article {
 article > p {
   margin-top: 20px;
 }
+
+.contact-us-form {
+  padding: 40px;
+}
+
+.form-container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+input {
+  margin-top: 5px;
+  border-radius: 0;
+  border: 1px solid #2f2f2e;
+  height: 1rem;
+  padding: 10px;
+  width: 50%;
+}
+
+textarea {
+  margin-top: 5px;
+  border-radius: 0;
+  border: 1px solid #2f2f2e;
+  padding: 10px;
+  width: 50%;
+}
+
+.submit {
+  background-color: #2f2f2e;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 2.5rem;
+  width: 25%;
+  padding: 0;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #ffffff;
+  color: #2f2f2e;
+  border: 2px solid #2f2f2e;
+}
