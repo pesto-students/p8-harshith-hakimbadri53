@@ -117,3 +117,41 @@ textarea {
   color: #2f2f2e;
   border: 2px solid #2f2f2e;
 }
+
+aside {
+  position: sticky;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  height: 100vh;
+  border: 1px solid #f5f4f4;
+  background-color: #2f2f2e;
+  color: #ffffff;
+}
+.aside-header {
+  /* color: #2F2F2E; */
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #2f2f2e;
+}
+
+.about-us-heading {
+  border-bottom: 2px solid #f5f4f4;
+}
+
+.aside-content {
+  font-size: 0.9rem;
+  padding: 20px;
+}
