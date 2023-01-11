@@ -90,9 +90,14 @@ const getRandomNumber = (time) =>
   });
 
 getRandomNumber(0)
-  .then(
-    (res) => console.log("then response: ", res)
-    // (err) => console.error("catch error: ", err)
-  )
+  .then((res) => {
+    console.log("then response: ", res);
+    return "chain 1";
+  })
+  .then((res) => {
+    console.log("promise chaining: ", res);
+    return "chain 2";
+  })
   .catch((err) => console.error("catch error: ", err))
-  .finally(() => console.log("finally"));
+  .then((res) => console.log("promise chaining: ", res))
+  .finally(() => console.log("finally end chain"));
