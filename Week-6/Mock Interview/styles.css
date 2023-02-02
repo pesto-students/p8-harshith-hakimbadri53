@@ -1,0 +1,16 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  height: 50px;
+  width: 50px;
+}
+
+.black {
+  background-color: #000;
+}
+
+.white {
+  background-color: #fff;
+}
