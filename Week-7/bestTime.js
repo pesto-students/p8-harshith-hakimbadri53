@@ -12,7 +12,7 @@ const stockPrices = [2, 1, 2, 0, 1];
 // [7, 1, 5, 3, 6, 4];
 
 const getMaxProfit = (arr) => {
-  if (arr.length === 0 || arr.length === 1) return 0;
+  if (arr.length <= 1) return 0;
 
   let maxProfitSoFar = 0;
   let buy = arr[0];
@@ -32,3 +32,6 @@ const getMaxProfit = (arr) => {
 };
 
 console.log(getMaxProfit(stockPrices));
+
+// Time complexity O(N)
+// Space complexity O(1)

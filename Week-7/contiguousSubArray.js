@@ -37,3 +37,6 @@ const getMaxSum = (arr) => {
 
 console.log("max sum is : ", getMaxSum(arr1));
 console.log("max sum is : ", getMaxSum(arr2));
+
+// Time complexity O(N)
+// Space complexity O(1)

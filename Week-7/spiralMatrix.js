@@ -72,3 +72,6 @@ console.log("Spiral Order: ", getSpiralMatrix(matrix2));
 
 console.log("Orignal Matrix: ", matrix3);
 console.log("Spiral Order: ", getSpiralMatrix(matrix3));
+
+// Time complexity O(N*M) i.e. the total number of elements in the matrix
+// Space complexity O(N*M) i.e. the total number of elements in the matrix

@@ -31,3 +31,6 @@ const isPairWithDifference = (arr, diff) => {
 };
 
 console.log(isPairWithDifference(arr, difference));
+
+// Time complexity O(N)
+// Space complexity O(N)

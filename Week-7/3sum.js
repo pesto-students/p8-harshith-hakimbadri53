@@ -43,3 +43,6 @@ const get3Some = (arr, target) => {
 };
 
 console.log(get3Some(arr, target));
+
+// Time complexity O(N^2)
+// Space complexity O(1)

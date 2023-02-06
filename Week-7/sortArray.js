@@ -29,3 +29,6 @@ const sortArray = (arr) => {
 const arr = [0, 2, 1, 2, 0];
 
 console.log(sortArray(arr));
+
+// Time complexity O(N)
+// Space complexity O(1)
