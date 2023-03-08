@@ -1,0 +1,39 @@
+.flag-container {
+  width: 400px;
+  height: 180px;
+}
+/* .stripe {
+  height: 100%;
+  width: 100%;
+} */
+.column-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.side {
+  background-color: red;
+  height: 180px;
+  width: 50px;
+}
+.top {
+  background-color: green;
+  width: 100%;
+  height: 33.33%;
+}
+.middle {
+  background-color: #fff;
+  width: 100%;
+  height: 33.33%;
+}
+.bottom {
+  background-color: #000;
+  width: 100%;
+  height: 33.33%;
+}
