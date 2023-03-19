@@ -4,8 +4,8 @@ const rotateLinkedList = (ll, k) => {
   for (let i = 0; i < k; i++) {
     ll.tail.next = ll.head;
     ll.head = ll.head.next;
-    ll.tail.next.next = null;
     ll.tail = ll.tail.next;
+    ll.tail.next = null;
   }
 
   return ll;
