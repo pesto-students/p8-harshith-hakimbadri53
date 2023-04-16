@@ -67,27 +67,38 @@ class Graph {
   showGraph() {
     console.log(this.adjList);
   }
+
+  edgeListToAdjList(edgeList) {
+    edgeList.forEach((edge) => {
+      if (!this.adjList[edge[0]]) {
+        this.adjList[edge[0]] = [];
+      }
+      if (!this.adjList[edge[1]]) {
+        this.adjList[edge[1]] = [];
+      }
+
+      if (!this.adjList[edge[0]].includes(edge[1])) {
+        this.adjList[edge[0]].push(edge[1]);
+      }
+      if (!this.adjList[edge[1]].includes(edge[0])) {
+        this.adjList[edge[1]].push(edge[0]);
+      }
+    });
+  }
+  edgeListToAdjListDirectional(edgeList) {
+    edgeList.forEach((edge) => {
+      if (!this.adjList[edge[0]]) {
+        this.adjList[edge[0]] = [];
+      }
+      if (!this.adjList[edge[1]]) {
+        this.adjList[edge[1]] = [];
+      }
+
+      if (!this.adjList[edge[0]].includes(edge[1])) {
+        this.adjList[edge[0]].push(edge[1]);
+      }
+    });
+  }
 }
-
-const graph = new Graph();
-
-graph.addVertex(1);
-graph.addVertex(2);
-graph.addVertex(3);
-graph.addVertex(4);
-graph.addVertex(5);
-
-graph.addEdge(1, 2);
-graph.addEdge(1, 5);
-graph.addEdge(1, 3);
-graph.addEdge(2, 4);
-graph.addEdge(3, 4);
-
-graph.showGraph();
-
-console.log("DFS: ");
-graph.dfs();
-console.log("BFS: ");
-graph.bfs();
 
 module.exports = Graph;
